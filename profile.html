@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+		<title>Stay Safe</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="icon file.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+       <link rel="stylesheet" href="css/owl.carousel.min.css"> 
+	  
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "https://staysafesenioruj.000webhostapp.com/app/profile.php", true);
+  xhttp.send();
+}						
+</script>
+   </head>
+   <!-- body -->
+   <body onload="loadDoc()" class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+      <!-- top -->
+                    <!-- header -->
+         <header class="header-area">
+            <div class="container">
+               <div class="row d_flex">
+                  <div class="col-sm-3 logo_sm">
+                     <div class="logo">
+                        <a href="welcome.html"></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-9">
+                     <div class="navbar-area">
+                        <nav class="site-navbar">
+                           <ul>
+                              <li><a href="welcome.html">Home</a></li>
+                              <li><a href="profile.html">Profile & Test Result</a></li>
+                              <li><a href="centers.html">Health Centers</a></li>
+                              <li><a href="welcome.html" class="logo_midle">Stay Safe</a></li>
+                              <li><a href="countdown.html">Countdown Indicator</a></li>
+                              <li><a href="statistics.html">COVID-19 Statistics</a></li>
+                              <li><a href="medical.html">Medical Diagnosis </a></li>
+                              <li><a href="notification.html">Notification</a></li>
+                           </ul>
+                           <button class="nav-toggler">
+                           <span></span>
+                           </button>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+      <!-- end header -->
+
+      <!-- contact -->
+     <div class="contact">
+         <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                     <div class="titlepage text_align_left">
+					 <br/><br/>
+                        <h2>Profile</h2>
+                     </div>
+                  </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div id="demo"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end contact -->
+      <!--  footer -->
+         <div class="footer">
+            <div class="copyright">
+				<p class="text-center">© 2021 Stay Safe. All rights reserved </p>
+            </div>
+         </div>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>

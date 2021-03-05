@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        id    = "com.staysafe.JU"
+        >
+
+    <name> Stay Safe </name>
+
+    <description>
+        Stay Safe
+    </description>
+
+    <author href="http://staysafe.com" email="staysafe@gmail.com">
+       Stay Safe
+    </author>
+	
+	<plugin name="cordova-plugin-whitelist" source="npm"  />
+	 
+    <preference name="webviewbounce" value="false" />
+
+    <access origin="*"/>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+	
+	<allow-navigation href="https://www.google.com/maps/embed/*" />
+	
+	<icon src="icon file.png" />
+
+	
+</widget>
